@@ -1,0 +1,134 @@
+[
+  {
+    "claim": "항생제는 감기 바이러스를 치료한다.",
+    "language": "ko",
+    "evidence": [{
+      "publisher": "CDC",
+      "title": "Healthy Habits: Antibiotic Do's and Don'ts",
+      "url": "https://www.cdc.gov/antibiotic-use/about/index.html",
+      "date": "2025-09-23",
+      "summary": "CDC는 항생제가 감기를 일으키는 바이러스에 효과가 없다고 설명한다.",
+      "stance": "refuted"
+    }]
+  },
+  {
+    "claim": "Antibiotics treat the viruses that cause colds.",
+    "language": "en",
+    "evidence": [{
+      "publisher": "CDC",
+      "title": "Healthy Habits: Antibiotic Do's and Don'ts",
+      "url": "https://www.cdc.gov/antibiotic-use/about/index.html",
+      "date": "2025-09-23",
+      "summary": "The CDC lists colds among viral illnesses that antibiotics cannot treat.",
+      "stance": "refuted"
+    }]
+  },
+  {
+    "claim": "지구 자전축의 기울기가 계절 변화의 원인이다.",
+    "language": "ko",
+    "evidence": [{
+      "publisher": "NOAA NESDIS",
+      "title": "Why does Earth have Seasons?",
+      "url": "https://www.nesdis.noaa.gov/about/k-12-education/understanding-our-planet/why-does-earth-have-seasons",
+      "summary": "NOAA는 지구 자전축의 기울기 때문에 공전 중 각 반구가 받는 햇빛이 달라져 계절이 생긴다고 설명한다.",
+      "stance": "supported"
+    }]
+  },
+  {
+    "claim": "Earth's axial tilt causes the seasons.",
+    "language": "en",
+    "evidence": [{
+      "publisher": "NOAA NESDIS",
+      "title": "Why does Earth have Seasons?",
+      "url": "https://www.nesdis.noaa.gov/about/k-12-education/understanding-our-planet/why-does-earth-have-seasons",
+      "summary": "NOAA explains how Earth's tilt changes the sunlight reaching each hemisphere during its orbit.",
+      "stance": "supported"
+    }]
+  },
+  {
+    "claim": "달은 스스로 빛을 낸다.",
+    "language": "ko",
+    "evidence": [{
+      "publisher": "NASA",
+      "title": "Moon Phases",
+      "url": "https://science.nasa.gov/moon/moon-phases/",
+      "summary": "지구에서 보는 달빛은 달 표면에 반사된 햇빛이다.",
+      "stance": "refuted"
+    }]
+  },
+  {
+    "claim": "Visible moonlight is sunlight reflected by the Moon.",
+    "language": "en",
+    "evidence": [{
+      "publisher": "NASA",
+      "title": "Moon Phases",
+      "url": "https://science.nasa.gov/moon/moon-phases/",
+      "summary": "NASA explains that the light from the Moon comes from sunlight reflecting off its surface.",
+      "stance": "supported"
+    }]
+  },
+  {
+    "claim": "명왕성은 2006년에 왜행성으로 재분류됐다.",
+    "language": "ko",
+    "evidence": [{
+      "publisher": "NASA",
+      "title": "Pluto",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/",
+      "summary": "NASA는 국제천문연맹이 2006년 명왕성을 행성에서 왜행성으로 재분류했다고 설명한다.",
+      "stance": "supported"
+    }]
+  },
+  {
+    "claim": "Pluto was reclassified as a dwarf planet in 2006.",
+    "language": "en",
+    "evidence": [{
+      "publisher": "NASA",
+      "title": "Pluto",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/",
+      "summary": "NASA records the International Astronomical Union's decision to reclassify Pluto in 2006.",
+      "stance": "supported"
+    }]
+  },
+  {
+    "claim": "2026년 8월 26일 네팔 홍수는 중국이 건설한 댐의 붕괴로 발생했다.",
+    "language": "ko",
+    "evidence": [
+      {
+        "publisher": "AFP 팩트체크",
+        "title": "네팔 홍수 원인은 중국 댐 붕괴가 아닌 얼음·암석 산사태",
+        "url": "https://factcheckkorea.afp.com/doc.afp.com.C9ZE8T8",
+        "date": "2026-10-06",
+        "summary": "AFP는 위성영상, 지진 자료와 전문가 인터뷰를 검토해 중국 댐 붕괴설을 반박했다.",
+        "stance": "refuted"
+      },
+      {
+        "publisher": "USGS",
+        "title": "2026 Nepal Debris Avalanche and Flash Flood",
+        "url": "https://www.usgs.gov/programs/landslide-hazards/science/2026-nepal-debris-avalanche-and-flash-flood",
+        "date": "2026-08-27",
+        "summary": "미국 지질조사국의 초기 분석은 빙하가 포함된 사면 붕괴가 홍수를 촉발했을 가능성이 높다고 설명한다."
+      }
+    ]
+  },
+  {
+    "claim": "The August 26, 2026 Nepal floods were caused by the collapse of a Chinese-built dam.",
+    "language": "en",
+    "evidence": [
+      {
+        "publisher": "AFP Fact Check Korea",
+        "title": "네팔 홍수 원인은 중국 댐 붕괴가 아닌 얼음·암석 산사태",
+        "url": "https://factcheckkorea.afp.com/doc.afp.com.C9ZE8T8",
+        "date": "2026-10-06",
+        "summary": "AFP reviewed satellite imagery, seismic records and expert accounts to refute the dam-collapse claim.",
+        "stance": "refuted"
+      },
+      {
+        "publisher": "USGS",
+        "title": "2026 Nepal Debris Avalanche and Flash Flood",
+        "url": "https://www.usgs.gov/programs/landslide-hazards/science/2026-nepal-debris-avalanche-and-flash-flood",
+        "date": "2026-08-27",
+        "summary": "The USGS preliminary analysis identifies a rapid slope failure involving a glacier as the likely trigger."
+      }
+    ]
+  }
+]

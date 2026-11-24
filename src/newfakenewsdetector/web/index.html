@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="한국어와 영어 주장을 검증 자료와 대조하고 원문 출처를 확인합니다.">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="module" src="/assets/app.js"></script>
+  <title>NewFakeNewsDetector · 주장 검증</title>
+</head>
+<body>
+  <header class="topbar">
+    <div class="frame topbar-inner">
+      <a class="brand" href="/" aria-label="NewFakeNewsDetector 홈">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>NewFakeNewsDetector</span>
+      </a>
+      <a class="repo" href="https://github.com/tkgo11/NewFakeNewsDetector">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main class="frame">
+    <section class="hero" aria-labelledby="page-title">
+      <h1 id="page-title">주장의 근거를<br><em>확인하세요.</em></h1>
+      <p>기사나 게시글에서 확인할 주장 한 문장을 입력하세요. 검증 자료를 찾고 원문 출처를 보여줍니다.</p>
+    </section>
+    <div class="workspace">
+      <section class="panel input-panel" aria-labelledby="input-title">
+        <form id="check-form">
+          <div class="section-header">
+            <h2 id="input-title"><label for="claim">검증할 주장</label></h2>
+            <label for="language" class="sr-only">주장 언어</label>
+            <select id="language" name="language">
+              <option value="auto">언어 자동 감지</option>
+              <option value="ko">한국어</option>
+              <option value="en">English</option>
+            </select>
+          </div>
+          <div class="editor">
+            <textarea id="claim" name="claim" maxlength="500" minlength="8" required
+              placeholder="확인하고 싶은 주장을 입력하세요" aria-describedby="input-hint"></textarea>
+            <span id="count" aria-hidden="true">0 / 500자</span>
+          </div>
+          <p id="input-hint" class="sr-only">한국어 또는 영어로 8자 이상, 500자 이하의 주장 한 문장을 입력하세요.</p>
+          <div class="examples">
+            <span>예시</span>
+            <button type="button" data-claim="항생제는 감기 바이러스를 치료한다.">항생제와 감기</button>
+            <button type="button" data-claim="지구 자전축의 기울기가 계절 변화의 원인이다.">계절이 생기는 이유</button>
+            <button type="button" data-claim="Pluto was reclassified as a dwarf planet in 2006.">Pluto</button>
+          </div>
+          <div class="form-actions">
+            <div class="online-option">
+              <label><input id="online" type="checkbox" aria-describedby="online-help" disabled> Google 팩트체크 검색</label>
+              <small id="online-help">온라인 검색 설정 확인 중</small>
+            </div>
+            <button type="submit" id="submit">근거 확인 <span aria-hidden="true">↗</span></button>
+          </div>
+          <p id="error" role="alert" hidden></p>
+        </form>
+      </section>
+      <section class="panel result-panel" aria-labelledby="result-title">
+        <div class="section-header">
+          <h2 id="result-title">검증 결과</h2>
+          <span class="result-count" id="result-count" hidden></span>
+        </div>
+        <div id="status" role="status" aria-atomic="true" class="sr-only"></div>
+        <div class="empty" id="empty">
+          <span class="empty-mark" aria-hidden="true"></span>
+          <p>아직 확인한 주장이 없습니다.</p>
+        </div>
+        <div id="result" hidden></div>
+      </section>
+    </div>
+    <footer>관련 자료만 발견되면 판정을 보류합니다. 결과의 적용 범위는 원문에서 확인하세요.</footer>
+  </main>
+</body>
+</html>

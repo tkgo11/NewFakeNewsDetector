@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "NewFakeNewsDetector",
+  "version": "0.1.0",
+  "description": "선택한 문장을 로컬 NewFakeNewsDetector에서 검증합니다.",
+  "permissions": ["contextMenus"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "NewFakeNewsDetector 열기"}
+}
